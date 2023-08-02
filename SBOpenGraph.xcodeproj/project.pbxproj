@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		94129DD32A7A549700D5DFC7 /* SBOpenGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */; };
 		94129DE32A7A54B200D5DFC7 /* SBOpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */; };
+		94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,7 @@
 		94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBOpenGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94129DD22A7A549700D5DFC7 /* SBOpenGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBOpenGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBOpenGraphTests.swift; path = Tests/SBOpenGraphTests.swift; sourceTree = "<group>"; };
+		94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		94129DCC2A7A549600D5DFC7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				TargetAttributes = {
 					94129DC92A7A549600D5DFC7 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					94129DD12A7A549600D5DFC7 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -188,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +342,7 @@
 		94129DDD2A7A549700D5DFC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -363,6 +369,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = "";
@@ -373,6 +380,7 @@
 		94129DDE2A7A549700D5DFC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -409,6 +417,7 @@
 		94129DE02A7A549700D5DFC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -426,6 +435,7 @@
 		94129DE12A7A549700D5DFC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
