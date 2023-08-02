@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		94129DD32A7A549700D5DFC7 /* SBOpenGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */; };
-		94129DD92A7A549700D5DFC7 /* SBOpenGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 94129DCD2A7A549600D5DFC7 /* SBOpenGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94129DE32A7A54B200D5DFC7 /* SBOpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBOpenGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94129DCD2A7A549600D5DFC7 /* SBOpenGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBOpenGraph.h; sourceTree = "<group>"; };
 		94129DD22A7A549700D5DFC7 /* SBOpenGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBOpenGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBOpenGraphTests.swift; path = Tests/SBOpenGraphTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 		94129DCC2A7A549600D5DFC7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				94129DCD2A7A549600D5DFC7 /* SBOpenGraph.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -89,7 +86,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94129DD92A7A549700D5DFC7 /* SBOpenGraph.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
