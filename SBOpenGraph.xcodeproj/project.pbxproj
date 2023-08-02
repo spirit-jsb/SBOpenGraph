@@ -10,6 +10,7 @@
 		94129DD32A7A549700D5DFC7 /* SBOpenGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */; };
 		94129DE32A7A54B200D5DFC7 /* SBOpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */; };
 		94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */; };
+		94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		94129DD22A7A549700D5DFC7 /* SBOpenGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBOpenGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBOpenGraphTests.swift; path = Tests/SBOpenGraphTests.swift; sourceTree = "<group>"; };
 		94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraph.swift; sourceTree = "<group>"; };
+		94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphMetadata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */,
+				94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */,
 				94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
