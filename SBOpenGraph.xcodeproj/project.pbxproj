@@ -11,6 +11,7 @@
 		94129DE32A7A54B200D5DFC7 /* SBOpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */; };
 		94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */; };
 		94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */; };
+		94129DE92A7A59F000D5DFC7 /* SBOpenGraphParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBOpenGraphTests.swift; path = Tests/SBOpenGraphTests.swift; sourceTree = "<group>"; };
 		94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraph.swift; sourceTree = "<group>"; };
 		94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphMetadata.swift; sourceTree = "<group>"; };
+		94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */,
 				94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */,
+				94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */,
+				94129DE92A7A59F000D5DFC7 /* SBOpenGraphParser.swift in Sources */,
 				94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
