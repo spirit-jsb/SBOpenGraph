@@ -7,94 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94129DD32A7A549700D5DFC7 /* SBOpenGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */; };
-		94129DE32A7A54B200D5DFC7 /* SBOpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */; };
-		94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */; };
-		94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */; };
-		94129DE92A7A59F000D5DFC7 /* SBOpenGraphParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */; };
-		94129DEB2A7B263500D5DFC7 /* SBOpenGraphError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DEA2A7B263500D5DFC7 /* SBOpenGraphError.swift */; };
+		9430E4062A7B8D3600351727 /* SBOpenGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9430E3FD2A7B8D3600351727 /* SBOpenGraph.framework */; };
+		9430E4212A7B8DAD00351727 /* SBOpenGraphMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E41A2A7B8DAD00351727 /* SBOpenGraphMetadata.swift */; };
+		9430E4222A7B8DAD00351727 /* SBOpenGraphParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E41B2A7B8DAD00351727 /* SBOpenGraphParser.swift */; };
+		9430E4232A7B8DAD00351727 /* SBOpenGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E41C2A7B8DAD00351727 /* SBOpenGraph.swift */; };
+		9430E4242A7B8DAD00351727 /* SBOpenGraphError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E41D2A7B8DAD00351727 /* SBOpenGraphError.swift */; };
+		9430E4282A7B8DC000351727 /* empty_ogp.html in Resources */ = {isa = PBXBuildFile; fileRef = 9430E4252A7B8DC000351727 /* empty_ogp.html */; };
+		9430E4292A7B8DC000351727 /* SBOpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E4262A7B8DC000351727 /* SBOpenGraphTests.swift */; };
+		9430E42A2A7B8DC000351727 /* ogp.html in Resources */ = {isa = PBXBuildFile; fileRef = 9430E4272A7B8DC000351727 /* ogp.html */; };
+		9430E42D2A7B8E2200351727 /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 9430E42C2A7B8E2200351727 /* OHHTTPStubs */; };
+		9430E42F2A7B8E2200351727 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9430E42E2A7B8E2200351727 /* OHHTTPStubsSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94129DD42A7A549700D5DFC7 /* PBXContainerItemProxy */ = {
+		9430E4072A7B8D3600351727 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 94129DC12A7A549600D5DFC7 /* Project object */;
+			containerPortal = 9430E3F42A7B8D3600351727 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94129DC92A7A549600D5DFC7;
+			remoteGlobalIDString = 9430E3FC2A7B8D3600351727;
 			remoteInfo = SBOpenGraph;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBOpenGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94129DD22A7A549700D5DFC7 /* SBOpenGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBOpenGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBOpenGraphTests.swift; path = Tests/SBOpenGraphTests.swift; sourceTree = "<group>"; };
-		94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraph.swift; sourceTree = "<group>"; };
-		94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphMetadata.swift; sourceTree = "<group>"; };
-		94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphParser.swift; sourceTree = "<group>"; };
-		94129DEA2A7B263500D5DFC7 /* SBOpenGraphError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphError.swift; sourceTree = "<group>"; };
+		9430E3FD2A7B8D3600351727 /* SBOpenGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBOpenGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9430E4052A7B8D3600351727 /* SBOpenGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBOpenGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9430E41A2A7B8DAD00351727 /* SBOpenGraphMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBOpenGraphMetadata.swift; sourceTree = "<group>"; };
+		9430E41B2A7B8DAD00351727 /* SBOpenGraphParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBOpenGraphParser.swift; sourceTree = "<group>"; };
+		9430E41C2A7B8DAD00351727 /* SBOpenGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBOpenGraph.swift; sourceTree = "<group>"; };
+		9430E41D2A7B8DAD00351727 /* SBOpenGraphError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBOpenGraphError.swift; sourceTree = "<group>"; };
+		9430E4252A7B8DC000351727 /* empty_ogp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = empty_ogp.html; path = Tests/empty_ogp.html; sourceTree = "<group>"; };
+		9430E4262A7B8DC000351727 /* SBOpenGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBOpenGraphTests.swift; path = Tests/SBOpenGraphTests.swift; sourceTree = "<group>"; };
+		9430E4272A7B8DC000351727 /* ogp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ogp.html; path = Tests/ogp.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		94129DC72A7A549600D5DFC7 /* Frameworks */ = {
+		9430E3FA2A7B8D3600351727 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94129DCF2A7A549600D5DFC7 /* Frameworks */ = {
+		9430E4022A7B8D3600351727 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94129DD32A7A549700D5DFC7 /* SBOpenGraph.framework in Frameworks */,
+				9430E4062A7B8D3600351727 /* SBOpenGraph.framework in Frameworks */,
+				9430E42F2A7B8E2200351727 /* OHHTTPStubsSwift in Frameworks */,
+				9430E42D2A7B8E2200351727 /* OHHTTPStubs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		94129DC02A7A549600D5DFC7 = {
+		9430E3F32A7B8D3600351727 = {
 			isa = PBXGroup;
 			children = (
-				94129DCC2A7A549600D5DFC7 /* Sources */,
-				94129DD62A7A549700D5DFC7 /* Tests */,
-				94129DCB2A7A549600D5DFC7 /* Products */,
+				9430E4192A7B8DAD00351727 /* Sources */,
+				9430E4152A7B8DAD00351727 /* Tests */,
+				9430E3FE2A7B8D3600351727 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		94129DCB2A7A549600D5DFC7 /* Products */ = {
+		9430E3FE2A7B8D3600351727 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */,
-				94129DD22A7A549700D5DFC7 /* SBOpenGraphTests.xctest */,
+				9430E3FD2A7B8D3600351727 /* SBOpenGraph.framework */,
+				9430E4052A7B8D3600351727 /* SBOpenGraphTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94129DCC2A7A549600D5DFC7 /* Sources */ = {
+		9430E4152A7B8DAD00351727 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */,
-				94129DEA2A7B263500D5DFC7 /* SBOpenGraphError.swift */,
-				94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */,
-				94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		94129DD62A7A549700D5DFC7 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				94129DE22A7A54B200D5DFC7 /* SBOpenGraphTests.swift */,
+				9430E4252A7B8DC000351727 /* empty_ogp.html */,
+				9430E4272A7B8DC000351727 /* ogp.html */,
+				9430E4262A7B8DC000351727 /* SBOpenGraphTests.swift */,
 			);
 			name = Tests;
+			sourceTree = "<group>";
+		};
+		9430E4192A7B8DAD00351727 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9430E41C2A7B8DAD00351727 /* SBOpenGraph.swift */,
+				9430E41D2A7B8DAD00351727 /* SBOpenGraphError.swift */,
+				9430E41A2A7B8DAD00351727 /* SBOpenGraphMetadata.swift */,
+				9430E41B2A7B8DAD00351727 /* SBOpenGraphParser.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		94129DC52A7A549600D5DFC7 /* Headers */ = {
+		9430E3F82A7B8D3600351727 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,14 +114,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		94129DC92A7A549600D5DFC7 /* SBOpenGraph */ = {
+		9430E3FC2A7B8D3600351727 /* SBOpenGraph */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94129DDC2A7A549700D5DFC7 /* Build configuration list for PBXNativeTarget "SBOpenGraph" */;
+			buildConfigurationList = 9430E40F2A7B8D3600351727 /* Build configuration list for PBXNativeTarget "SBOpenGraph" */;
 			buildPhases = (
-				94129DC52A7A549600D5DFC7 /* Headers */,
-				94129DC62A7A549600D5DFC7 /* Sources */,
-				94129DC72A7A549600D5DFC7 /* Frameworks */,
-				94129DC82A7A549600D5DFC7 /* Resources */,
+				9430E3F82A7B8D3600351727 /* Headers */,
+				9430E3F92A7B8D3600351727 /* Sources */,
+				9430E3FA2A7B8D3600351727 /* Frameworks */,
+				9430E3FB2A7B8D3600351727 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -119,48 +129,51 @@
 			);
 			name = SBOpenGraph;
 			productName = SBOpenGraph;
-			productReference = 94129DCA2A7A549600D5DFC7 /* SBOpenGraph.framework */;
+			productReference = 9430E3FD2A7B8D3600351727 /* SBOpenGraph.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		94129DD12A7A549600D5DFC7 /* SBOpenGraphTests */ = {
+		9430E4042A7B8D3600351727 /* SBOpenGraphTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94129DDF2A7A549700D5DFC7 /* Build configuration list for PBXNativeTarget "SBOpenGraphTests" */;
+			buildConfigurationList = 9430E4122A7B8D3600351727 /* Build configuration list for PBXNativeTarget "SBOpenGraphTests" */;
 			buildPhases = (
-				94129DCE2A7A549600D5DFC7 /* Sources */,
-				94129DCF2A7A549600D5DFC7 /* Frameworks */,
-				94129DD02A7A549600D5DFC7 /* Resources */,
+				9430E4012A7B8D3600351727 /* Sources */,
+				9430E4022A7B8D3600351727 /* Frameworks */,
+				9430E4032A7B8D3600351727 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94129DD52A7A549700D5DFC7 /* PBXTargetDependency */,
+				9430E4082A7B8D3600351727 /* PBXTargetDependency */,
 			);
 			name = SBOpenGraphTests;
+			packageProductDependencies = (
+				9430E42C2A7B8E2200351727 /* OHHTTPStubs */,
+				9430E42E2A7B8E2200351727 /* OHHTTPStubsSwift */,
+			);
 			productName = SBOpenGraphTests;
-			productReference = 94129DD22A7A549700D5DFC7 /* SBOpenGraphTests.xctest */;
+			productReference = 9430E4052A7B8D3600351727 /* SBOpenGraphTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		94129DC12A7A549600D5DFC7 /* Project object */ = {
+		9430E3F42A7B8D3600351727 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					94129DC92A7A549600D5DFC7 = {
+					9430E3FC2A7B8D3600351727 = {
 						CreatedOnToolsVersion = 14.3.1;
-						LastSwiftMigration = 1430;
 					};
-					94129DD12A7A549600D5DFC7 = {
+					9430E4042A7B8D3600351727 = {
 						CreatedOnToolsVersion = 14.3.1;
 						LastSwiftMigration = 1430;
 					};
 				};
 			};
-			buildConfigurationList = 94129DC42A7A549600D5DFC7 /* Build configuration list for PBXProject "SBOpenGraph" */;
+			buildConfigurationList = 9430E3F72A7B8D3600351727 /* Build configuration list for PBXProject "SBOpenGraph" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,66 +181,71 @@
 				en,
 				Base,
 			);
-			mainGroup = 94129DC02A7A549600D5DFC7;
-			productRefGroup = 94129DCB2A7A549600D5DFC7 /* Products */;
+			mainGroup = 9430E3F32A7B8D3600351727;
+			packageReferences = (
+				9430E42B2A7B8E2200351727 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+			);
+			productRefGroup = 9430E3FE2A7B8D3600351727 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94129DC92A7A549600D5DFC7 /* SBOpenGraph */,
-				94129DD12A7A549600D5DFC7 /* SBOpenGraphTests */,
+				9430E3FC2A7B8D3600351727 /* SBOpenGraph */,
+				9430E4042A7B8D3600351727 /* SBOpenGraphTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94129DC82A7A549600D5DFC7 /* Resources */ = {
+		9430E3FB2A7B8D3600351727 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94129DD02A7A549600D5DFC7 /* Resources */ = {
+		9430E4032A7B8D3600351727 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9430E4282A7B8DC000351727 /* empty_ogp.html in Resources */,
+				9430E42A2A7B8DC000351727 /* ogp.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94129DC62A7A549600D5DFC7 /* Sources */ = {
+		9430E3F92A7B8D3600351727 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94129DEB2A7B263500D5DFC7 /* SBOpenGraphError.swift in Sources */,
-				94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */,
-				94129DE92A7A59F000D5DFC7 /* SBOpenGraphParser.swift in Sources */,
-				94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */,
+				9430E4212A7B8DAD00351727 /* SBOpenGraphMetadata.swift in Sources */,
+				9430E4232A7B8DAD00351727 /* SBOpenGraph.swift in Sources */,
+				9430E4242A7B8DAD00351727 /* SBOpenGraphError.swift in Sources */,
+				9430E4222A7B8DAD00351727 /* SBOpenGraphParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94129DCE2A7A549600D5DFC7 /* Sources */ = {
+		9430E4012A7B8D3600351727 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94129DE32A7A54B200D5DFC7 /* SBOpenGraphTests.swift in Sources */,
+				9430E4292A7B8DC000351727 /* SBOpenGraphTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94129DD52A7A549700D5DFC7 /* PBXTargetDependency */ = {
+		9430E4082A7B8D3600351727 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94129DC92A7A549600D5DFC7 /* SBOpenGraph */;
-			targetProxy = 94129DD42A7A549700D5DFC7 /* PBXContainerItemProxy */;
+			target = 9430E3FC2A7B8D3600351727 /* SBOpenGraph */;
+			targetProxy = 9430E4072A7B8D3600351727 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		94129DDA2A7A549700D5DFC7 /* Debug */ = {
+		9430E40D2A7B8D3600351727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		94129DDB2A7A549700D5DFC7 /* Release */ = {
+		9430E40E2A7B8D3600351727 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,10 +369,9 @@
 			};
 			name = Release;
 		};
-		94129DDD2A7A549700D5DFC7 /* Debug */ = {
+		9430E4102A7B8D3600351727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -381,7 +398,6 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = "";
@@ -389,10 +405,9 @@
 			};
 			name = Debug;
 		};
-		94129DDE2A7A549700D5DFC7 /* Release */ = {
+		9430E4112A7B8D3600351727 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -426,7 +441,7 @@
 			};
 			name = Release;
 		};
-		94129DE02A7A549700D5DFC7 /* Debug */ = {
+		9430E4132A7B8D3600351727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -444,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		94129DE12A7A549700D5DFC7 /* Release */ = {
+		9430E4142A7B8D3600351727 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -464,34 +479,58 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94129DC42A7A549600D5DFC7 /* Build configuration list for PBXProject "SBOpenGraph" */ = {
+		9430E3F72A7B8D3600351727 /* Build configuration list for PBXProject "SBOpenGraph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94129DDA2A7A549700D5DFC7 /* Debug */,
-				94129DDB2A7A549700D5DFC7 /* Release */,
+				9430E40D2A7B8D3600351727 /* Debug */,
+				9430E40E2A7B8D3600351727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94129DDC2A7A549700D5DFC7 /* Build configuration list for PBXNativeTarget "SBOpenGraph" */ = {
+		9430E40F2A7B8D3600351727 /* Build configuration list for PBXNativeTarget "SBOpenGraph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94129DDD2A7A549700D5DFC7 /* Debug */,
-				94129DDE2A7A549700D5DFC7 /* Release */,
+				9430E4102A7B8D3600351727 /* Debug */,
+				9430E4112A7B8D3600351727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94129DDF2A7A549700D5DFC7 /* Build configuration list for PBXNativeTarget "SBOpenGraphTests" */ = {
+		9430E4122A7B8D3600351727 /* Build configuration list for PBXNativeTarget "SBOpenGraphTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94129DE02A7A549700D5DFC7 /* Debug */,
-				94129DE12A7A549700D5DFC7 /* Release */,
+				9430E4132A7B8D3600351727 /* Debug */,
+				9430E4142A7B8D3600351727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9430E42B2A7B8E2200351727 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9430E42C2A7B8E2200351727 /* OHHTTPStubs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9430E42B2A7B8E2200351727 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubs;
+		};
+		9430E42E2A7B8E2200351727 /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9430E42B2A7B8E2200351727 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 94129DC12A7A549600D5DFC7 /* Project object */;
+	rootObject = 9430E3F42A7B8D3600351727 /* Project object */;
 }
