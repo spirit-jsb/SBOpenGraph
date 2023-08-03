@@ -42,7 +42,12 @@ struct SBOpenGraphParser {
                 }
 
                 // 提取 content 标签 range
-                let contentResults = contentRegex.matches(in: metaTag, options: [], range: NSRange(location: 0, length: metaTag.count))
+                var contentResults = contentRegex.matches(in: metaTag, options: [], range: NSRange(location: 0, length: metaTag.count))
+                if contentResults.first == nil {
+                    let contentRegex = try! NSRegularExpression(pattern: #"\scontent=\\*?'(.*?)\\*?'"#, options: [])
+
+                    contentResults = contentRegex.matches(in: metaTag, options: [], range: NSRange(location: 0, length: metaTag.count))
+                }
                 guard let firstContentResults = contentResults.first, let contentRange = Range(firstContentResults.range(at: 1), in: metaTag) else {
                     return nil
                 }
