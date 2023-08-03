@@ -63,6 +63,7 @@ public struct SBOpenGraph {
     }
     #endif
 
+    @discardableResult
     public static func fetch(url: URL, headers: [String: String]? = nil, completion: @escaping (Swift.Result<SBOpenGraph, Error>) -> Void) -> URLSessionDataTask {
         let urlSession = URLSession(configuration: .default)
 
