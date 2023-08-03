@@ -12,6 +12,7 @@
 		94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */; };
 		94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */; };
 		94129DE92A7A59F000D5DFC7 /* SBOpenGraphParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */; };
+		94129DEB2A7B263500D5DFC7 /* SBOpenGraphError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94129DEA2A7B263500D5DFC7 /* SBOpenGraphError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraph.swift; sourceTree = "<group>"; };
 		94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphMetadata.swift; sourceTree = "<group>"; };
 		94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphParser.swift; sourceTree = "<group>"; };
+		94129DEA2A7B263500D5DFC7 /* SBOpenGraphError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOpenGraphError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				94129DE42A7A56FA00D5DFC7 /* SBOpenGraph.swift */,
+				94129DEA2A7B263500D5DFC7 /* SBOpenGraphError.swift */,
 				94129DE62A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift */,
 				94129DE82A7A59F000D5DFC7 /* SBOpenGraphParser.swift */,
 			);
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94129DEB2A7B263500D5DFC7 /* SBOpenGraphError.swift in Sources */,
 				94129DE72A7A598F00D5DFC7 /* SBOpenGraphMetadata.swift in Sources */,
 				94129DE92A7A59F000D5DFC7 /* SBOpenGraphParser.swift in Sources */,
 				94129DE52A7A56FA00D5DFC7 /* SBOpenGraph.swift in Sources */,
