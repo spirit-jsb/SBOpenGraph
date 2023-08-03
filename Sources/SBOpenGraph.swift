@@ -14,32 +14,52 @@ public struct SBOpenGraph {
 
     #if compiler(>=5.5.2) && canImport(_Concurrency)
     @available(iOS 13.0, *)
-    public static func fetch(url: URL?, headers: [String: String]? = nil) async throws -> SBOpenGraph {
-        return try await withCheckedThrowingContinuation { continuation in
-            self.fetch(url: url, headers: headers) { result in
-                switch result {
-                    case let .success(successResult):
-                        continuation.resume(returning: successResult)
-                    case let .failure(failureError):
-                        continuation.resume(throwing: failureError)
+    public static func fetch(url: URL, headers: [String: String]? = nil) async throws -> SBOpenGraph {
+        let fetchRequest = FetchRequestWrap(url: url, headers: headers)
+
+        return try await withTaskCancellationHandler(operation: {
+            try await withCheckedThrowingContinuation { continuation in
+                Task {
+                    await fetchRequest.start { result in
+                        switch result {
+                            case let .success(successResult):
+                                continuation.resume(returning: successResult)
+                            case let .failure(failureError):
+                                continuation.resume(throwing: failureError)
+                        }
+                    }
                 }
             }
-        }
+        }, onCancel: {
+            Task {
+                await fetchRequest.cancel()
+            }
+        })
     }
 
     #elseif compiler(>=5.5) && canImport(_Concurrency)
     @available(iOS 15.0, *)
-    public static func fetch(url: URL?, headers: [String: String]? = nil) async throws -> SBOpenGraph {
-        return try await withCheckedThrowingContinuation { continuation in
-            self.fetch(url: url, headers: headers) { result in
-                switch result {
-                    case let .success(successResult):
-                        continuation.resume(returning: successResult)
-                    case let .failure(failureError):
-                        continuation.resume(throwing: failureError)
+    public static func fetch(url: URL, headers: [String: String]? = nil) async throws -> SBOpenGraph {
+        let fetchRequest = FetchRequestWrap(url: url, headers: headers)
+
+        return try await withTaskCancellationHandler(operation: {
+            try await withCheckedThrowingContinuation { continuation in
+                Task {
+                    await fetchRequest.start { result in
+                        switch result {
+                            case let .success(successResult):
+                                continuation.resume(returning: successResult)
+                            case let .failure(failureError):
+                                continuation.resume(throwing: failureError)
+                        }
+                    }
                 }
             }
-        }
+        }, onCancel: {
+            Task {
+                await fetchRequest.cancel()
+            }
+        })
     }
     #endif
 
@@ -88,6 +108,28 @@ public struct SBOpenGraph {
 
     public subscript(attributeName: SBOpenGraphMetadata) -> String? {
         return self.source[attributeName]
+    }
+}
+
+private extension SBOpenGraph {
+    actor FetchRequestWrap {
+        let url: URL
+        let headers: [String: String]?
+
+        var task: URLSessionTask?
+
+        init(url: URL, headers: [String: String]?) {
+            self.url = url
+            self.headers = headers
+        }
+
+        func start(completion: @Sendable @escaping (Swift.Result<SBOpenGraph, Error>) -> Void) {
+            self.task = SBOpenGraph.fetch(url: self.url, headers: self.headers, completion: completion)
+        }
+
+        func cancel() {
+            self.task?.cancel()
+        }
     }
 }
 
