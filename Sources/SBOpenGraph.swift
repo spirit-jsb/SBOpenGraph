@@ -10,6 +10,8 @@
 import Foundation
 
 public struct SBOpenGraph {
+    private let source: [SBOpenGraphMetadata: String]
+
     #if compiler(>=5.5.2) && canImport(_Concurrency)
     @available(iOS 13.0, *)
     public static func fetch(url: URL?, headers: [String: String]? = nil) async throws -> SBOpenGraph {
@@ -45,7 +47,13 @@ public struct SBOpenGraph {
         fatalError("parse(url:completion:) has not been implemented")
     }
 
-    public init(htmlString: String?) {}
+    public init(htmlString: String?) throws {
+        guard let htmlString = htmlString else {
+            throw SBOpenGraphError.incompleteContext
+        }
+
+        self.source = SBOpenGraphParser.parser(htmlString: htmlString)
+    }
 }
 
 #endif
