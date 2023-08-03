@@ -54,6 +54,10 @@ public struct SBOpenGraph {
 
         self.source = SBOpenGraphParser.parser(htmlString: htmlString)
     }
+
+    public subscript(attributeName: SBOpenGraphMetadata) -> String? {
+        return self.source[attributeName]
+    }
 }
 
 #endif
