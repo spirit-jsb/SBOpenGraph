@@ -24,6 +24,7 @@ public struct SBOpenGraph {
             }
         }
     }
+
     #elseif compiler(>=5.5) && canImport(_Concurrency)
     @available(iOS 15.0, *)
     public static func fetch(url: URL?, headers: [String: String]? = nil) async throws -> SBOpenGraph {
@@ -44,6 +45,7 @@ public struct SBOpenGraph {
         fatalError("parse(url:completion:) has not been implemented")
     }
 
+    public init(htmlString: String?) {}
 }
 
 #endif
