@@ -11,7 +11,6 @@ import Foundation
 
 public enum SBOpenGraphError: Error {
     case unknown
-    case incompleteContext
     case unexpectedStatusCode(Int)
     case encodingError
 }
