@@ -47,11 +47,9 @@ public struct SBOpenGraph {
         fatalError("parse(url:completion:) has not been implemented")
     }
 
-    public init(htmlString: String?) throws {
-        guard let htmlString = htmlString else {
-            throw SBOpenGraphError.incompleteContext
         }
 
+    public init(htmlString: String) {
         self.source = SBOpenGraphParser.parser(htmlString: htmlString)
     }
 
