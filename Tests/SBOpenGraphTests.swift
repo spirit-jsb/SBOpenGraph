@@ -1,8 +1,9 @@
 //
 //  SBOpenGraphTests.swift
-//  SBOpenGraphTests
 //
-//  Created by JONO-Jsb on 2023/8/2.
+//  Created by Max on 2023/10/2
+//
+//  Copyright © 2023 Max. All rights reserved.
 //
 
 import OHHTTPStubs
